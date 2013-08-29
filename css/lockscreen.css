@@ -1,0 +1,57 @@
+body {
+  color: #ffffff;
+  height: 568px;
+  width: 320px;
+  margin: 0px;
+  background-image: url('../img/bg1.png');
+  background-repeat:no-repeat;
+  font-family: 'Roboto', Arial, sans-serif; font-weight: 100; 
+}
+
+#statusbar-40 {
+  height: 40px;
+}
+
+#title {
+  font-size: 22px;
+  text-align: center;
+}
+
+#input-div {
+  font-size: 50px;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+.input-num {
+  margin: 0px 15px;
+}
+
+.num-row {
+  margin: 20px 39px;
+}
+.num {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto', Arial, sans-serif; font-weight: 100; 
+  margin: 6px 12px;
+  border: 1px solid #ffffff;
+  padding: 10px 19px;
+  border-radius: 999px;
+  background-color: rgba(255,0,0,0);
+}
+#num-10{
+  /*background-color: rgba(0,0,0,0.3);*/
+  padding: 10px 13px;
+}
+#num-11 {
+  /*background-color: rgba(255,255,255,0.3);*/
+  padding: 10px 9px;
+}
+
+#loading-div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: none;
+}

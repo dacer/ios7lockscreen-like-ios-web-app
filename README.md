@@ -1,0 +1,1 @@
+It's a sample ios7 lockscreen like ios web app
