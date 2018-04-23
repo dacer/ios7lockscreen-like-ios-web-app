@@ -55,17 +55,18 @@ function onClickOrigin(num){
       };
 }
 function addInput(num){
-  input.push(num);
-  console.log(input);
-  if(input.length<=3){
+  if(input.length<3){
+    input.push(num);
+    console.log(input);
     $("#input-num-"+input.length).text(num);
   }
 }
 function deleteInput(){
-  if(input.length<=3){
+  if(input.length>0){
     $("#input-num-"+input.length).text("·");
+    input.pop();
+    console.log(input);
   }
-  input.pop();
 }
 
 
